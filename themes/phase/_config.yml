@@ -1,0 +1,23 @@
+menu:
+  Home: /
+  Archives: /archives
+  Links: /links
+  
+addthis:
+  enable: true
+  pubid:
+  facebook: true
+  twitter: true
+  google: true
+  pinterest: true
+
+facebook:
+google_plus:
+twitter:
+github:
+
+fancybox: true
+google_analytics:
+rss:
+
+duoshuo_shortname: Vincent's Blog
