@@ -28,10 +28,5 @@ fancybox: true
 google_analytics:
 rss:
 
-comment_provider: facebook
-# Facebook comment
-facebook:
-  appid: 123456789012345
-  comment_count: 5
-  comment_width: 840
-  comment_colorscheme: light
+comment_provider: duoshuo
+duoshuo_shortname: Vincent's Blog
