@@ -226,7 +226,7 @@ int main() {
                 b[i].clear();
                 b[i].init(i);
                 b[i].makeHalfInter();
-                if (!Start && b[i].inPolygon(self))
+                if (!Start && b[i].head + 2 < b[i].tail && b[i].inPolygon(self))
                     Start = i;
             }
             spfa::clear();

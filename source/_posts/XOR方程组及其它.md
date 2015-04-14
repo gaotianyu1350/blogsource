@@ -24,13 +24,13 @@ $O(60N)$
 
 令$F[i]$为点$i$到根的路径的`XOR`和。然后按照`例1`的方法处理。
 
-题目：BZOJ1954（[题解](http://gaotianyu1350.gitcafe.com/2014/12/19/BZOJ1954-TheXorLongestPath/)）
+题目：BZOJ1954（[题解](http://gaotianyu1350.gitcafe.io/2014/12/19/BZOJ1954-TheXorLongestPath/)）
 
 ### 3.给定一个序列，查询一个数$A$和区间$[l,r]$中哪个数的XOR和最大
 
 可持久化`Trie`，方法类似主席树。在区间上查询的方法类似`例1`。
 
-题目：BZOJ3261（[题解](http://gaotianyu1350.gitcafe.com/2014/12/20/BZOJ3261-%E6%9C%80%E5%A4%A7%E5%BC%82%E6%88%96%E5%92%8C/)）
+题目：BZOJ3261（[题解](http://gaotianyu1350.gitcafe.io/2014/12/20/BZOJ3261-%E6%9C%80%E5%A4%A7%E5%BC%82%E6%88%96%E5%92%8C/)）
 
 ### 4.给定一个序列，给定数字$A$，查询$A$和序列中某一数字的$K$大XOR和
 
@@ -38,7 +38,7 @@ $O(60N)$
 
 变形：查询前$K$大的序列中两数的XOR和。用堆维护每一个数字和其他数字的$K$大XOR和。如果从堆中提取出来，就把$K+1$大的结果再放回堆里。
 
-题目：BZOJ3689（[题解](http://gaotianyu1350.gitcafe.com/2014/12/21/BZOJ3689-%E5%BC%82%E6%88%96%E4%B9%8B/)）
+题目：BZOJ3689（[题解](http://gaotianyu1350.gitcafe.io/2014/12/21/BZOJ3689-%E5%BC%82%E6%88%96%E4%B9%8B/)）
 
 ### 小结
 遇到两个数的XOR问题，先固定一个数，然后用`Trie`解决
@@ -88,7 +88,7 @@ $2^k$，$k$为线性基中元素的个数。
 
 是`例9`的逆操作，不再赘述。
 
-题目：BZOJ2844（[题解](http://gaotianyu1350.gitcafe.com/2014/12/19/BZOJ2844-albus/)）
+题目：BZOJ2844（[题解](http://gaotianyu1350.gitcafe.io/2014/12/19/BZOJ2844-albus/)）
 
 ### 小结
 求选择若干个数XOR和的问题，先求解线性基，再利用线性基的性质求解。
@@ -112,8 +112,8 @@ $2^k$，$k$为线性基中元素的个数。
 
 任意两条路径合起来都是一个环（允许重复走）。那么我们可以随便选择一条路径，再求出所有独立环，从独立环中选出若干个使得和这条路径的XOR和最大。问题转化为`例8`。
 
-题目：BZOJ2115（[题解](http://gaotianyu1350.gitcafe.com/2014/12/20/BZOJ2115-Xor/)）
-BZOJ2322（[题解](http://gaotianyu1350.gitcafe.com/2014/12/20/BZOJ2322-%E6%A2%A6%E6%83%B3%E5%B0%81%E5%8D%B0/)）**这题非常有意思一定要看！**
+题目：BZOJ2115（[题解](http://gaotianyu1350.gitcafe.io/2014/12/20/BZOJ2115-Xor/)）
+BZOJ2322（[题解](http://gaotianyu1350.gitcafe.io/2014/12/20/BZOJ2322-%E6%A2%A6%E6%83%B3%E5%B0%81%E5%8D%B0/)）**这题非常有意思一定要看！**
 
 ### 小结
 选择若干个元素的XOR和问题，尽量转化为`例6`和`例8`的简单形式求解。
@@ -137,9 +137,9 @@ $$ A\_{0,0}x\_0+A\_{0,1}x\_1+...+A\_{0,n-1}x\_{n-1}=B\_0 $$
 
 在多解的情况下求所有未知数的和最大|最小？暴力枚举系数被约掉的项是$0$还是$1$，最优化剪枝。
 
-题目：BZOJ1923（[题解](http://gaotianyu1350.gitcafe.com/2014/12/16/BZOJ1923-%E5%A4%96%E6%98%9F%E5%8D%83%E8%B6%B3%E8%99%AB/)）
-POI1830（[题解](http://gaotianyu1350.gitcafe.com/2014/12/17/POJ1830-%E5%BC%80%E5%85%B3%E9%97%AE%E9%A2%98/)）
-BZOJ2466（[题解](http://gaotianyu1350.gitcafe.com/2014/12/17/BZOJ2466-%E6%A0%91/)）
+题目：BZOJ1923（[题解](http://gaotianyu1350.gitcafe.io/2014/12/16/BZOJ1923-%E5%A4%96%E6%98%9F%E5%8D%83%E8%B6%B3%E8%99%AB/)）
+POI1830（[题解](http://gaotianyu1350.gitcafe.io/2014/12/17/POJ1830-%E5%BC%80%E5%85%B3%E9%97%AE%E9%A2%98/)）
+BZOJ2466（[题解](http://gaotianyu1350.gitcafe.io/2014/12/17/BZOJ2466-%E6%A0%91/)）
 
 ## 待填坑
 
@@ -147,5 +147,5 @@ BZOJ2466（[题解](http://gaotianyu1350.gitcafe.com/2014/12/17/BZOJ2466-%E6%A0%
 
 ## 引用与鸣谢
 
-莫涛PPT：[高斯消元解XOR方程组](http://wenku.baidu.com/link?url=GEdOCrRk1KcIOvLdiVES8GhfbVOjnnIJkYbpLQyiSpm9BtxKjfLyV4-NXXPi8DRE3FS4jejTHDqy3n8uXTqy-UNSBxsCnWJn78gS10Zzl2e)
+莫涛PPT：[高斯消元解XOR方程组](http://wenku.baidu.io/link?url=GEdOCrRk1KcIOvLdiVES8GhfbVOjnnIJkYbpLQyiSpm9BtxKjfLyV4-NXXPi8DRE3FS4jejTHDqy3n8uXTqy-UNSBxsCnWJn78gS10Zzl2e)
 感谢[ZKY](http://blog.csdn.net/iamzky)神犇在`可持久化数据结构`和`线性基`方面提供的帮助。有几道题目也是参考了`ZKY`神犇的题解。
